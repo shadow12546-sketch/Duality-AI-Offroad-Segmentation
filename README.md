@@ -38,16 +38,30 @@ python test_segmentation.py --mode eval --model_path segmentation_head_best.pth 
 python test_segmentation.py --mode infer --model_path segmentation_head_best.pth --data_dir <path_to_testImages> --output_dir predictions
 
 ## Model Weights
-Download segmentation_head_best.pth from: [Google Drive Link — add after training]
+Download segmentation_head_best.pth from: [Google Drive Link]
 Place in: Offroad_Segmentation_Scripts/segmentation_head_best.pth
 
 ## Results
-| Metric          | Score |
-|-----------------|-------|
-| Val IoU (mIoU)  | TBD   |
-| Val Dice        | TBD   |
-| Pixel Accuracy  | TBD   |
-| Inference Speed | TBD ms|
+| Metric          | Score   |
+|-----------------|---------|
+| Val IoU (mIoU)  | 0.2951  |
+| Val Dice        | 0.4864  |
+| Pixel Accuracy  | 0.6894  |
+| Inference Speed | 3.18 ms |
+
+## Per-Class IoU
+| Class          | IoU    |
+|----------------|--------|
+| Trees          | 0.1888 |
+| Lush Bushes    | 0.2423 |
+| Dry Grass      | 0.4975 |
+| Dry Bushes     | 0.0086 |
+| Ground Clutter | 0.1790 |
+| Flowers        | 0.1504 |
+| Logs           | 0.0333 |
+| Rocks          | 0.1593 |
+| Landscape      | 0.2829 |
+| Sky            | 0.8647 |
 
 ## Classes
 | ID    | Class          | Weight |
