@@ -1,8 +1,8 @@
 # Duality AI — Offroad Semantic Scene Segmentation
 
 ## Team
-- Name: [Your Name]
-- Hackathon: GFG Hackathon
+- Name: Logic Legends
+- Hackathon: Hack on Titan
 
 ## Project Overview
 Semantic segmentation of offroad desert environments using DINOv2 ViT-S/14 backbone with a custom ConvNeXt-style segmentation head. Trained on synthetic data generated from Duality AI's Falcon digital twin platform.
